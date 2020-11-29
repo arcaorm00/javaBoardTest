@@ -24,6 +24,6 @@
   </update>
   
   <delete id="delete">
-  	delete board where id=#{id}
+  	delete from board where id=#{id}
   </delete>
 </mapper>
