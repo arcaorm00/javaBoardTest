@@ -1,3 +1,5 @@
 INDEX VERSION 1.131
+C:\JavaBoardTest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1442067478.index
+\boardTest\src\main\java
 C:\JavaBoardTest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\805836054.index
 \board\src\main\java
