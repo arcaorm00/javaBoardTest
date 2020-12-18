@@ -4344,3 +4344,395 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-02 17:02:15.718
 !MESSAGE executing callback sts4.classpath.macYmUjL SUCCESS [done]
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-12-02 20:09:21.938
+!MESSAGE Connection to https://spring.io/blog.atom failed on spring.io. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: spring.io
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-12-02 20:09:22.162
+!MESSAGE Connection to https://dist.springsource.com/release/STS/doc/updates.xml failed on dist.springsource.com. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: dist.springsource.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-12-18 11:14:05.223
+!MESSAGE Connection to https://dist.springsource.com/release/STS/doc/updates.xml failed on dist.springsource.com. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: dist.springsource.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-12-18 11:14:05.248
+!MESSAGE Connection to https://spring.io/blog.atom failed on spring.io. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: spring.io
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:15:46.932
+!MESSAGE Preparing classpath changed notification board
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:15:47.018
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:15:47.205
+!MESSAGE classpath=133 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:15:47.259
+!MESSAGE buffering callback sts4.classpath.macYmUjL board false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:15:47.289
+!MESSAGE executing callback sts4.classpath.macYmUjL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:15:48.269
+!MESSAGE executing callback sts4.classpath.macYmUjL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:16:08.472
+!MESSAGE Preparing classpath changed notification board
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:16:08.499
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:16:08.533
+!MESSAGE classpath=133 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:16:08.569
+!MESSAGE buffering callback sts4.classpath.macYmUjL board false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:16:08.596
+!MESSAGE executing callback sts4.classpath.macYmUjL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:16:08.646
+!MESSAGE executing callback sts4.classpath.macYmUjL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:17:39.285
+!MESSAGE Preparing classpath changed notification board
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:17:39.331
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:17:39.358
+!MESSAGE classpath=133 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:17:39.377
+!MESSAGE buffering callback sts4.classpath.macYmUjL board false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:17:39.394
+!MESSAGE executing callback sts4.classpath.macYmUjL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:17:39.414
+!MESSAGE executing callback sts4.classpath.macYmUjL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:17:52.992
+!MESSAGE Preparing classpath changed notification board
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:17:53.016
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:17:53.039
+!MESSAGE classpath=133 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:17:53.066
+!MESSAGE buffering callback sts4.classpath.macYmUjL board false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:17:53.078
+!MESSAGE executing callback sts4.classpath.macYmUjL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:17:53.101
+!MESSAGE executing callback sts4.classpath.macYmUjL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:18:01.804
+!MESSAGE Preparing classpath changed notification board
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:18:01.820
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:18:01.844
+!MESSAGE classpath=133 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:18:01.869
+!MESSAGE buffering callback sts4.classpath.macYmUjL board false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:18:01.884
+!MESSAGE executing callback sts4.classpath.macYmUjL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:18:01.906
+!MESSAGE executing callback sts4.classpath.macYmUjL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:18:12.951
+!MESSAGE Preparing classpath changed notification board
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:18:12.967
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:18:12.992
+!MESSAGE classpath=133 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:18:13.019
+!MESSAGE buffering callback sts4.classpath.macYmUjL board false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:18:13.030
+!MESSAGE executing callback sts4.classpath.macYmUjL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:18:13.049
+!MESSAGE executing callback sts4.classpath.macYmUjL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:19:20.895
+!MESSAGE Preparing classpath changed notification board
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:19:20.910
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:19:20.931
+!MESSAGE classpath=133 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:19:20.948
+!MESSAGE buffering callback sts4.classpath.macYmUjL board false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:19:20.959
+!MESSAGE executing callback sts4.classpath.macYmUjL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:19:20.980
+!MESSAGE executing callback sts4.classpath.macYmUjL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:19:37.843
+!MESSAGE Preparing classpath changed notification board
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:19:37.860
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:19:37.880
+!MESSAGE classpath=133 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:19:37.899
+!MESSAGE buffering callback sts4.classpath.macYmUjL board false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:19:37.911
+!MESSAGE executing callback sts4.classpath.macYmUjL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:19:37.933
+!MESSAGE executing callback sts4.classpath.macYmUjL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:13.384
+!MESSAGE Preparing classpath changed notification board
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:13.407
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:13.447
+!MESSAGE classpath=133 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:13.473
+!MESSAGE buffering callback sts4.classpath.macYmUjL board false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:13.485
+!MESSAGE executing callback sts4.classpath.macYmUjL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:13.507
+!MESSAGE executing callback sts4.classpath.macYmUjL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:13.625
+!MESSAGE Preparing classpath changed notification board
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:13.639
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:13.661
+!MESSAGE classpath=133 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:13.683
+!MESSAGE buffering callback sts4.classpath.macYmUjL board false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:13.697
+!MESSAGE executing callback sts4.classpath.macYmUjL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:13.715
+!MESSAGE executing callback sts4.classpath.macYmUjL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:29.642
+!MESSAGE Preparing classpath changed notification board
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:29.655
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:29.682
+!MESSAGE classpath=133 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:29.702
+!MESSAGE buffering callback sts4.classpath.macYmUjL board false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:29.713
+!MESSAGE executing callback sts4.classpath.macYmUjL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:29.728
+!MESSAGE executing callback sts4.classpath.macYmUjL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:31.365
+!MESSAGE Preparing classpath changed notification board
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:31.382
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:31.410
+!MESSAGE classpath=133 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:31.457
+!MESSAGE buffering callback sts4.classpath.macYmUjL board false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:31.473
+!MESSAGE executing callback sts4.classpath.macYmUjL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:31.498
+!MESSAGE executing callback sts4.classpath.macYmUjL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:53.055
+!MESSAGE Preparing classpath changed notification board
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:53.072
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:53.097
+!MESSAGE classpath=133 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:53.122
+!MESSAGE buffering callback sts4.classpath.macYmUjL board false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:53.136
+!MESSAGE executing callback sts4.classpath.macYmUjL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:53.187
+!MESSAGE executing callback sts4.classpath.macYmUjL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:59.760
+!MESSAGE Preparing classpath changed notification board
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:59.774
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:59.799
+!MESSAGE classpath=133 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:59.817
+!MESSAGE buffering callback sts4.classpath.macYmUjL board false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:59.826
+!MESSAGE executing callback sts4.classpath.macYmUjL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:21:59.848
+!MESSAGE executing callback sts4.classpath.macYmUjL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:23:30.355
+!MESSAGE Preparing classpath changed notification board
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:23:30.373
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:23:30.394
+!MESSAGE classpath=133 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:23:30.411
+!MESSAGE buffering callback sts4.classpath.macYmUjL board false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:23:30.419
+!MESSAGE executing callback sts4.classpath.macYmUjL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:23:30.437
+!MESSAGE executing callback sts4.classpath.macYmUjL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:23:43.555
+!MESSAGE Preparing classpath changed notification board
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:23:43.569
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:23:43.590
+!MESSAGE classpath=133 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:23:43.609
+!MESSAGE buffering callback sts4.classpath.macYmUjL board false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:23:43.617
+!MESSAGE executing callback sts4.classpath.macYmUjL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-18 11:23:43.630
+!MESSAGE executing callback sts4.classpath.macYmUjL SUCCESS [done]
