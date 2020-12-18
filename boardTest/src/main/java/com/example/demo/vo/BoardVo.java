@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class BoardVo {
 
-	private int no;
+	private int id;
 	private String title;
 	private String content;
 	private String writer;
